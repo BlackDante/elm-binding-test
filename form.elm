@@ -32,7 +32,7 @@ view model =
     [ input [ onInput FirstNameUpdate ] []
     , input [ onInput LastNameUpdate ] []
     ]
-    , span [] [ text (name model) ]
+  , span [] [ text (name model) ]
   ]
 
 
