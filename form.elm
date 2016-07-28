@@ -41,7 +41,7 @@ update msg model =
   case msg of
     FirstNameUpdate content ->
       { model |
-          firstname = content}
+          firstname = content }
 
     LastNameUpdate content ->
       { model |
